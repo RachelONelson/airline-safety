@@ -1,0 +1,526 @@
+Airline,Year,Passenger Revenue
+American,1995,13326
+American,1996,13632
+American,1997,14284
+American,1998,14688
+American,1999,14456
+American,2000,16371
+American,2001,14084
+American,2002,14418
+American,2003,14236
+American,2004,14983
+American,2005,16572
+American,2006,17843
+American,2007,18088
+American,2008,18220
+American,2009,15019
+American,2010,16744
+American,2011,17930
+American,2012,18723
+American,2013,19571
+American,2014,20319
+American,2015,29023
+American,2016,27872
+American,2017,29215
+American,2018,30644
+American,2019,31445
+Continental,1995,4354
+Continental,1996,4885
+Continental,1997,5686
+Continental,1998,6388
+Continental,1999,6975
+Continental,2000,8062
+Continental,2001,7156
+Continental,2002,6585
+Continental,2003,6556
+Continental,2004,7129
+Continental,2005,7943
+Continental,2006,9303
+Continental,2007,10357
+Continental,2008,10958
+Continental,2009,8869
+Continental,2010,10093
+Continental,2011,11803
+Continental,2012,""
+Continental,2013,""
+Continental,2014,""
+Continental,2015,""
+Continental,2016,""
+Continental,2017,""
+Continental,2018,""
+Continental,2019,""
+Delta,1995,11386
+Delta,1996,11981
+Delta,1997,12773
+Delta,1998,13179
+Delta,1999,13203
+Delta,2000,14138
+Delta,2001,11876
+Delta,2002,10734
+Delta,2003,10272
+Delta,2004,10823
+Delta,2005,11346
+Delta,2006,11660
+Delta,2007,12768
+Delta,2008,13767
+Delta,2009,11206
+Delta,2010,21215
+Delta,2011,23397
+Delta,2012,24427
+Delta,2013,25801
+Delta,2014,27953
+Delta,2015,28218
+Delta,2016,27376
+Delta,2017,28235
+Delta,2018,30887
+Delta,2019,32848
+Northwest,1995,7762
+Northwest,1996,8598
+Northwest,1997,8722
+Northwest,1998,7513
+Northwest,1999,8587
+Northwest,2000,9523
+Northwest,2001,8219
+Northwest,2002,7753
+Northwest,2003,7617
+Northwest,2004,8432
+Northwest,2005,8838
+Northwest,2006,9051
+Northwest,2007,9293
+Northwest,2008,9386
+Northwest,2009,6837
+Northwest,2010,""
+Northwest,2011,""
+Northwest,2012,""
+Northwest,2013,""
+Northwest,2014,""
+Northwest,2015,""
+Northwest,2016,""
+Northwest,2017,""
+Northwest,2018,""
+Northwest,2019,""
+United,1995,13027
+United,1996,14247
+United,1997,15069
+United,1998,15202
+United,1999,15441
+United,2000,16603
+United,2001,13466
+United,2002,11519
+United,2003,10619
+United,2004,11954
+United,2005,12460
+United,2006,13890
+United,2007,14846
+United,2008,14728
+United,2009,11262
+United,2010,13447
+United,2011,14159
+United,2012,25666
+United,2013,25853
+United,2014,26615
+United,2015,26160
+United,2016,25239
+United,2017,26398
+United,2018,28757
+United,2019,30269
+US Airways,1995,6268
+US Airways,1996,6799
+US Airways,1997,7112
+US Airways,1998,7021
+US Airways,1999,6848
+US Airways,2000,7556
+US Airways,2001,6580
+US Airways,2002,5224
+US Airways,2003,4925
+US Airways,2004,5051
+US Airways,2005,5046
+US Airways,2006,7818
+US Airways,2007,7935
+US Airways,2008,7973
+US Airways,2009,6556
+US Airways,2010,7476
+US Airways,2011,8362
+US Airways,2012,8841
+US Airways,2013,9511
+US Airways,2014,9957
+US Airways,2015,""
+US Airways,2016,""
+US Airways,2017,""
+US Airways,2018,""
+US Airways,2019,""
+America West,1995,1443
+America West,1996,1625
+America West,1997,1753
+America West,1998,1853
+America West,1999,2024
+America West,2000,2176
+America West,2001,1933
+America West,2002,1920
+America West,2003,2108
+America West,2004,2192
+America West,2005,2510
+America West,2006,""
+America West,2007,""
+America West,2008,""
+America West,2009,""
+America West,2010,""
+America West,2011,""
+America West,2012,""
+America West,2013,""
+America West,2014,""
+America West,2015,""
+America West,2016,""
+America West,2017,""
+America West,2018,""
+America West,2019,""
+ --sub Network,1995,57566
+ --sub Network,1996,61768
+ --sub Network,1997,65399
+ --sub Network,1998,65844
+ --sub Network,1999,67533
+ --sub Network,2000,74429
+ --sub Network,2001,63313
+ --sub Network,2002,58153
+ --sub Network,2003,56333
+ --sub Network,2004,60564
+ --sub Network,2005,64715
+ --sub Network,2006,69565
+ --sub Network,2007,73287
+ --sub Network,2008,75031
+ --sub Network,2009,59748
+ --sub Network,2010,68974
+ --sub Network,2011,75651
+ --sub Network,2012,77658
+ --sub Network,2013,80736
+ --sub Network,2014,84845
+ --sub Network,2015,83401
+ --sub Network,2016,80487
+ --sub Network,2017,83848
+ --sub Network,2018,90288
+ --sub Network,2019,94562
+Southwest,1995,2761
+Southwest,1996,3269
+Southwest,1997,3639
+Southwest,1998,3964
+Southwest,1999,4499
+Southwest,2000,5397
+Southwest,2001,5290
+Southwest,2002,5237
+Southwest,2003,5612
+Southwest,2004,6116
+Southwest,2005,7092
+Southwest,2006,8546
+Southwest,2007,9167
+Southwest,2008,10225
+Southwest,2009,9561
+Southwest,2010,11122
+Southwest,2011,12582
+Southwest,2012,15453
+Southwest,2013,16722
+Southwest,2014,17658
+Southwest,2015,18299
+Southwest,2016,18594
+Southwest,2017,19141
+Southwest,2018,19729
+Southwest,2019,19911
+jetBlue,1995,""
+jetBlue,1996,""
+jetBlue,1997,""
+jetBlue,1998,""
+jetBlue,1999,""
+jetBlue,2000,102
+jetBlue,2001,310
+jetBlue,2002,615
+jetBlue,2003,965
+jetBlue,2004,1221
+jetBlue,2005,1623
+jetBlue,2006,2223
+jetBlue,2007,2632
+jetBlue,2008,3056
+jetBlue,2009,2928
+jetBlue,2010,3410
+jetBlue,2011,4080
+jetBlue,2012,4549
+jetBlue,2013,4971
+jetBlue,2014,5343
+jetBlue,2015,5893
+jetBlue,2016,6013
+jetBlue,2017,6289
+jetBlue,2018,6857
+jetBlue,2019,7183
+AirTran,1995,""
+AirTran,1996,""
+AirTran,1997,102
+AirTran,1998,344
+AirTran,1999,486
+AirTran,2000,605
+AirTran,2001,648
+AirTran,2002,714
+AirTran,2003,888
+AirTran,2004,1003
+AirTran,2005,1391
+AirTran,2006,1810
+AirTran,2007,2193
+AirTran,2008,2396
+AirTran,2009,2079
+AirTran,2010,2345
+AirTran,2011,2606
+AirTran,2012,""
+AirTran,2013,""
+AirTran,2014,""
+AirTran,2015,""
+AirTran,2016,""
+AirTran,2017,""
+AirTran,2018,""
+AirTran,2019,""
+Frontier,1995,54
+Frontier,1996,105
+Frontier,1997,131
+Frontier,1998,182
+Frontier,1999,293
+Frontier,2000,433
+Frontier,2001,429
+Frontier,2002,444
+Frontier,2003,558
+Frontier,2004,672
+Frontier,2005,806
+Frontier,2006,952
+Frontier,2007,1112
+Frontier,2008,1203
+Frontier,2009,924
+Frontier,2010,1085
+Frontier,2011,1462
+Frontier,2012,1169
+Frontier,2013,1138
+Frontier,2014,1265
+Frontier,2015,1194
+Frontier,2016,1084
+Frontier,2017,1145
+Frontier,2018,1203
+Frontier,2019,1366
+Virgin America,1995,""
+Virgin America,1996,""
+Virgin America,1997,""
+Virgin America,1998,""
+Virgin America,1999,""
+Virgin America,2000,""
+Virgin America,2001,""
+Virgin America,2002,""
+Virgin America,2003,""
+Virgin America,2004,""
+Virgin America,2005,""
+Virgin America,2006,""
+Virgin America,2007,12
+Virgin America,2008,342
+Virgin America,2009,492
+Virgin America,2010,658
+Virgin America,2011,953
+Virgin America,2012,1223
+Virgin America,2013,1287
+Virgin America,2014,1312
+Virgin America,2015,1341
+Virgin America,2016,1452
+Virgin America,2017,1487
+Virgin America,2018,""
+Virgin America,2019,""
+ -- sub LCC,1995,2814
+ -- sub LCC,1996,3374
+ -- sub LCC,1997,3871
+ -- sub LCC,1998,4490
+ -- sub LCC,1999,5279
+ -- sub LCC,2000,6538
+ -- sub LCC,2001,6678
+ -- sub LCC,2002,7010
+ -- sub LCC,2003,8023
+ -- sub LCC,2004,9012
+ -- sub LCC,2005,10912
+ -- sub LCC,2006,13531
+ -- sub LCC,2007,15117
+ -- sub LCC,2008,17220
+ -- sub LCC,2009,15982
+ -- sub LCC,2010,18621
+ -- sub LCC,2011,21683
+ -- sub LCC,2012,22394
+ -- sub LCC,2013,24119
+ -- sub LCC,2014,25577
+ -- sub LCC,2015,26727
+ -- sub LCC,2016,27143
+ -- sub LCC,2017,28061
+ -- sub LCC,2018,27789
+ -- sub LCC,2019,28460
+Alaska,1995,958
+Alaska,1996,1106
+Alaska,1997,1256
+Alaska,1998,1371
+Alaska,1999,1480
+Alaska,2000,1577
+Alaska,2001,1565
+Alaska,2002,1624
+Alaska,2003,1794
+Alaska,2004,1961
+Alaska,2005,2118
+Alaska,2006,2375
+Alaska,2007,2481
+Alaska,2008,2549
+Alaska,2009,2310
+Alaska,2010,2599
+Alaska,2011,3013
+Alaska,2012,3290
+Alaska,2013,3498
+Alaska,2014,3784
+Alaska,2015,3952
+Alaska,2016,4025
+Alaska,2017,4377
+Alaska,2018,6039
+Alaska,2019,6303
+Hawaiian,1995,298
+Hawaiian,1996,326
+Hawaiian,1997,332
+Hawaiian,1998,354
+Hawaiian,1999,400
+Hawaiian,2000,475
+Hawaiian,2001,488
+Hawaiian,2002,542
+Hawaiian,2003,627
+Hawaiian,2004,700
+Hawaiian,2005,750
+Hawaiian,2006,797
+Hawaiian,2007,889
+Hawaiian,2008,1106
+Hawaiian,2009,1040
+Hawaiian,2010,1155
+Hawaiian,2011,1481
+Hawaiian,2012,1767
+Hawaiian,2013,1943
+Hawaiian,2014,2038
+Hawaiian,2015,2011
+Hawaiian,2016,2131
+Hawaiian,2017,2349
+Hawaiian,2018,2433
+Hawaiian,2019,2430
+Spirit,1995,49
+Spirit,1996,54
+Spirit,1997,64
+Spirit,1998,116
+Spirit,1999,212
+Spirit,2000,274
+Spirit,2001,326
+Spirit,2002,379
+Spirit,2003,438
+Spirit,2004,468
+Spirit,2005,468
+Spirit,2006,516
+Spirit,2007,686
+Spirit,2008,661
+Spirit,2009,550
+Spirit,2010,568
+Spirit,2011,732
+Spirit,2012,832
+Spirit,2013,1045
+Spirit,2014,1221
+Spirit,2015,1267
+Spirit,2016,1312
+Spirit,2017,1499
+Spirit,2018,1890
+Spirit,2019,2124
+Allegiant,1995,""
+Allegiant,1996,""
+Allegiant,1997,""
+Allegiant,1998,""
+Allegiant,1999,""
+Allegiant,2000,""
+Allegiant,2001,""
+Allegiant,2002,""
+Allegiant,2003,""
+Allegiant,2004,46
+Allegiant,2005,91
+Allegiant,2006,178
+Allegiant,2007,259
+Allegiant,2008,331
+Allegiant,2009,375
+Allegiant,2010,458
+Allegiant,2011,532
+Allegiant,2012,631
+Allegiant,2013,708
+Allegiant,2014,801
+Allegiant,2015,824
+Allegiant,2016,860
+Allegiant,2017,937
+Allegiant,2018,1043
+Allegiant,2019,1200
+ -- sub Other,1995,1305
+ -- sub Other,1996,1486
+ -- sub Other,1997,1652
+ -- sub Other,1998,1841
+ -- sub Other,1999,2093
+ -- sub Other,2000,2326
+ -- sub Other,2001,2379
+ -- sub Other,2002,2546
+ -- sub Other,2003,2858
+ -- sub Other,2004,3176
+ -- sub Other,2005,3427
+ -- sub Other,2006,3867
+ -- sub Other,2007,4314
+ -- sub Other,2008,4646
+ -- sub Other,2009,4275
+ -- sub Other,2010,4781
+ -- sub Other,2011,5757
+ -- sub Other,2012,6520
+ -- sub Other,2013,7194
+ -- sub Other,2014,7844
+ -- sub Other,2015,8054
+ -- sub Other,2016,8327
+ -- sub Other,2017,9162
+ -- sub Other,2018,11405
+ -- sub Other,2019,12056
+Total All Sectors,1995,61685
+Total All Sectors,1996,66628
+Total All Sectors,1997,70922
+Total All Sectors,1998,72176
+Total All Sectors,1999,74905
+Total All Sectors,2000,83292
+Total All Sectors,2001,72370
+Total All Sectors,2002,67709
+Total All Sectors,2003,67214
+Total All Sectors,2004,72752
+Total All Sectors,2005,79054
+Total All Sectors,2006,86962
+Total All Sectors,2007,92718
+Total All Sectors,2008,96898
+Total All Sectors,2009,80006
+Total All Sectors,2010,92376
+Total All Sectors,2011,103092
+Total All Sectors,2012,106572
+Total All Sectors,2013,112050
+Total All Sectors,2014,118266
+Total All Sectors,2015,118182
+Total All Sectors,2016,115957
+Total All Sectors,2017,121071
+Total All Sectors,2018,129481
+Total All Sectors,2019,135078
+Total Industry,1995,69470
+Total Industry,1996,75286
+Total Industry,1997,79471
+Total Industry,1998,80985
+Total Industry,1999,84317
+Total Industry,2000,93639
+Total Industry,2001,80943
+Total Industry,2002,73352
+Total Industry,2003,77342
+Total Industry,2004,85697
+Total Industry,2005,93500
+Total Industry,2006,101294
+Total Industry,2007,107015
+Total Industry,2008,111533
+Total Industry,2009,91331
+Total Industry,2010,103978
+Total Industry,2011,114299
+Total Industry,2012,115975
+Total Industry,2013,120642
+Total Industry,2014,126706
+Total Industry,2015,126352
+Total Industry,2016,124633
+Total Industry,2017,129914
+Total Industry,2018,138420
+Total Industry,2019,144497
